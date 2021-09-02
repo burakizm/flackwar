@@ -17,6 +17,7 @@ Sesli sohbetlerde müzik dinlemenize olanak sağlarım.
 💠 /atla - Diğer şarkıya geçer.
 💠 /bitir - Botu kapatır.
 💠 /bul - Şarkı aratır.
+    kurucular: @burakizm @Baykaoss
 ****
         """,
        
