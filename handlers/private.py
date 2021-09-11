@@ -15,19 +15,9 @@ Sesli sohbetlerde müzik dinlemenize olanak sağlarım.
 💠 /durdur - Şarkıyı durdurur.
 💠 /devam - Şarkıyı devam ettirir.
 💠 /atla - Diğer şarkıya geçer.
-💠 /son - Botu kapatır.
+💠 /bitir - Botu kapatır.
 💠 /bul - Şarkı aratır.
-🔥ASİSTAN - @OnlineeMusicAsistan
-🔥KURUCU - @Ruhsuzzzadam
-🔥SOHBET GRUBU - https://t.me/Sohbet10line
-🔥Telegram 24saat aktif türk üye çekimi icin PM @UltraMedias @uye_ekleme_hizmeti
 ****
-reply_markup=InlineKeyboardMarkup(
-            [ 
-                [
-                    InlineKeyboardButton(
-                        "📜 Kullanım Kılavuzu 📜", url="https://t.me/MissMusicSupport")
-                  ]
-            ]      """,
+        """,
        
     )
