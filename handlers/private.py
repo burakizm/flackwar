@@ -8,24 +8,26 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Selam Ben {bn}.Sesli sohbetlerde kesintsiz müzik çalabilirim.Aşağıdaki yönergeleri takip ediniz***,
-        reply_markup=InlineKeyboardMarkup(
+        f"""Selam Ben {bn}
+Sesli sohbetlerde müzik dinlemenize olanak sağlarım.
+📜Kullanma Kılavuzu📜
+💠 /oynat - Şarkıyı oynatır.
+💠 /durdur - Şarkıyı durdurur.
+💠 /devam - Şarkıyı devam ettirir.
+💠 /atla - Diğer şarkıya geçer.
+💠 /son - Botu kapatır.
+💠 /bul - Şarkı aratır.
+🔥ASİSTAN - @OnlineeMusicAsistan
+🔥KURUCU - @Ruhsuzzzadam
+🔥SOHBET GRUBU - https://t.me/Sohbet10line
+🔥Telegram 24saat aktif türk üye çekimi icin PM @UltraMedias @uye_ekleme_hizmeti
+****
+reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
                         "📜 Kullanım Kılavuzu 📜", url="https://t.me/MissMusicSupport")
-                  ],[
-                    InlineKeyboardButton(
-                        "🥳 Asistan 🥳", url="https://t.me/MissMuzikAsistan"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        "Sohbet Grubumuz 🎙️", url="https://t.me/intikamailesi"
-                    )],
-                [
-                    InlineKeyboardButton(text= "😇Sahibim😇", url = "https://t.me/MissKraL")
-                ]
-            ]
-        ),
-     disable_web_page_preview=True      
+                  ]
+            ]      """,
+       
     )
