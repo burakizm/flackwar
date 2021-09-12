@@ -9,7 +9,7 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""Selam Ben {bn}
-Sesli sohbetlerde müzik dinlemenize olanak sağlarım.
+Sesli sohbetlerde müzik dinlemenize olanak sağlarım. Asistan : @flackwarasistan
 📜Kullanma Kılavuzu📜
 💠 /oynat - Şarkıyı oynatır.
 💠 /durdur - Şarkıyı durdurur.
