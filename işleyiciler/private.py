@@ -15,9 +15,11 @@ Sesli sohbetlerde müzik dinlemenize olanak sağlarım.
 💠 /durdur - Şarkıyı durdurur.
 💠 /devam - Şarkıyı devam ettirir.
 💠 /atla - Diğer şarkıya geçer.
-💠 /bitir - Botu kapatır.
+💠 /son - Botu kapatır.
 💠 /bul - Şarkı aratır.
-****
+    
+   Güncelleme ve diğer botlar için kanalımıza göz atın : [FLACK WAR](https://t.me/flackwardev)
+   Kurucular : [BURAK](https://t.me/burakizm) [BAY KAOS](https://t.me/Baykaoss)
         """,
        
     )
