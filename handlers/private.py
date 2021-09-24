@@ -9,7 +9,7 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""Selam Ben {bn}
-Sesli sohbetlerde müzik dinlemenize olanak sağlarım. Asistan : @flackwarasistan
+Sesli sohbetlerde müzik dinlemenize olanak sağlarım. 
 📜Kullanma Kılavuzu📜
 💠 /oynat - Şarkıyı oynatır.
 💠 /durdur - Şarkıyı durdurur.
@@ -18,8 +18,10 @@ Sesli sohbetlerde müzik dinlemenize olanak sağlarım. Asistan : @flackwarasist
 💠 /son - Botu kapatır.
 💠 /bul - Şarkı aratır.
     
-   Güncelleme ve diğer botlar için kanalımıza göz atın : [FLACK WAR](https://t.me/flackwardev)
-   Kurucular : [BURAK](https://t.me/burakizm) [BAY KAOS](https://t.me/Baykaoss)
+   🎤 Asistan : @OnlineeMusicAsistan
+  🧑‍💻 Kurucu : [Sedat TURHAN](https://t.me/ruhsuzzadaam)
+  🔥 Sohbet grubu [SOHBET ONLİNE](https://t.me/Sohbet10line)
+  🔥 Telegram Aktif Üye Ekleme Hizmeti:@uye_ekleme_hizmeti
         """,
        
     )
